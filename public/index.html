@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn & focus</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer type="text/javascript" src="./build/main.js"></script>
+</head>
+<body>
+
+    <div class="display">
+
+        <header>
+            <h1>Speedrunner</h1>
+            <p>Rules: </p>
+            <p>You'll see a path you need to run to get to the finish tile, then the path disappears and your time starts.</p>
+            <p>You have time until the bar goes black.</p>
+            <p><i>If you make a wrong step, you loose.</i></p>
+            <p><i>If you don't make it in time, you loose.</i></p>
+            <p>Clear? I don't care tbh.</p>
+        </header>
+
+        <div class="game-display">
+
+            <button value="Play" onclick="play()">Play</button>
+
+            <span class="timer">
+                <span class="timer-filler" style="width: 100%;"></span>
+            </span>
+
+            <canvas class="game-field" width="500" height="500">No canvas support ;(</canvas>
+
+        </div>
+
+
+    </div>
+
+</body>
+</html>
